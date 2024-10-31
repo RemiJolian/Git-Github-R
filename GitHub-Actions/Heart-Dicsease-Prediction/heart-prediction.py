@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
-#plt.style.use('./deeplearning.mplstyle')
 
 RANDOM_STATE = 55 ## We will pass it to every sklearn call so we ensure reproducibility
 
